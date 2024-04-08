@@ -89,17 +89,17 @@ input::placeholder {
 .sumbit_btn {
   border-radius: 50%;
   padding: 1rem;
-  background-color: $Purple;
+  background-color: hsl(259, 100%, 65%);
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  &:hover {
-    background-color: black;
-    transform: scale(1.1);
-  }
+}
+.sumbit_btn:hover {
+  background-color: black;
+  transform: scale(1.1);
 }
 
 .output h1 {
