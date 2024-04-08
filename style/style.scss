@@ -95,6 +95,11 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  &:hover {
+    background-color: black;
+    transform: scale(1.1);
+  }
 }
 
 .output h1 {
