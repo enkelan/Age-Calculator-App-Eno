@@ -52,15 +52,14 @@ input {
   width: 100px;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  border: 0.5px solid $Light-grey;
+  border: 0.5px solid hsl(0, 0%, 86%);
   display: flex;
   align-items: center;
   font-size: 1.5rem;
-
-  &:focus {
-    border-color: $Purple;
-    outline: none;
-  }
+}
+input:focus {
+  border-color: hsl(259, 100%, 65%);
+  outline: none;
 }
 
 
