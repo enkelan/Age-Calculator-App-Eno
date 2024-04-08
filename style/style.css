@@ -52,11 +52,17 @@ input {
   width: 100px;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  border: 0.5px solid hsl(0, 0%, 86%);
+  border: 0.5px solid $Light-grey;
   display: flex;
   align-items: center;
   font-size: 1.5rem;
+
+  &:focus {
+    border-color: $Purple;
+    outline: none;
+  }
 }
+
 
 input::-moz-placeholder {
   font-size: 1.5rem;
